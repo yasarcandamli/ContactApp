@@ -1,0 +1,104 @@
+:root {
+  --color-1: #a83b09;
+  --color-2: #f78900;
+  --color-3: #ffb200;
+  --color-4: #fff;
+}
+
+body {
+  background-color: var(--color-1);
+  color: var(--color-4);
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  width: 80%;
+  height: 80%;
+  background-color: var(--color-3);
+  border: 5px solid var(--color-2);
+  border-radius: 20px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-1);
+}
+
+.material-symbols-outlined {
+  font-size: 32px;
+  margin-right: 8px;
+}
+
+.List,
+.Form {
+  width: 80%;
+}
+
+.List p {
+  color: var(--color-1);
+}
+
+ul {
+  list-style-type: none;
+  font-size: large;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-1);
+  margin: 5px 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+input {
+  padding: 10px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  color: var(--color-1);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  &::placeholder {
+    color: var(--color-1);
+  }
+  &:focus {
+    border: 2px solid var(--color-1);
+    outline: none;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+  }
+}
+
+button {
+  cursor: pointer;
+  display: flex;
+  background-color: var(--color-1);
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  color: var(--color-4);
+  padding: 10px 20px;
+  margin: 10px 0;
+  justify-self: end;
+  &:hover {
+    background-color: var(--color-4);
+    color: var(--color-1);
+  }
+}

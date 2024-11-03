@@ -4,7 +4,7 @@ Bu proje, React kullanarak basit bir kişi rehberi uygulaması geliştirmektedir
 
 ## Live Site
 
-You can visit the live site [here](https://regal-syrniki-18130b.netlify.app/) to try out the game!
+Siteyi [buraya tıklayarak](https://regal-syrniki-18130b.netlify.app/) ziyaret edebilirsiniz!
 
 ## Özellikler
 
